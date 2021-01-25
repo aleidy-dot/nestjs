@@ -1,0 +1,12 @@
+runtime: nodejs10
+
+env_variables:
+  MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+  MYSQL_USER: ${DB_USER}
+  MYSQL_PASSWORD: ${DB_PASSWORD}
+  MYSQL_DATABASE: ${DB_NAME}
+manual_scaling: instances:1
+reocourses:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10

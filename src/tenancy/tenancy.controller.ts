@@ -1,8 +1,6 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-
 import { CreateTenantDto, ReadTenantDto } from './dto';
 import { TenancyService } from './tenancy.service';
-
 @Controller('tenants')
 export class TenancyController {
   constructor(private readonly tenantService: TenancyService) {}

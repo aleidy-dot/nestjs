@@ -1,5 +1,4 @@
 runtime: nodejs10
-
 env_variables:
   MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
   MYSQL_USER: ${DB_USER}
